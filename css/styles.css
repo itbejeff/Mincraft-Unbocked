@@ -55,7 +55,7 @@ main {
 
 button, .source-btn, .dsc-btn, .clr-btn {
     background-color: #ff2828;
-    color: rgb(142, 141, 141);
+    color: rgb(0, 0, 0);
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
