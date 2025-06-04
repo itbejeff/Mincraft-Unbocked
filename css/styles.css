@@ -54,7 +54,7 @@ main {
 }
 
 button, .source-btn, .dsc-btn, .clr-btn {
-    background-color: #4caf50;
+    background-color: #ff2828;
     color: white;
     padding: 10px 20px;
     font-size: 16px;
@@ -65,9 +65,31 @@ button, .source-btn, .dsc-btn, .clr-btn {
     display: inline-block;
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
-.clientbutton button {
-    background-color: #5fff5a;
+
+.desktopVersion121 button {
+    color :lightcoral
 }
+
+.desktopVersion112 button {
+    color :rgb(244, 189, 95)
+}
+
+.desktopVersion18 button {
+    color :rgb(218, 232, 90)
+}
+
+.moddedButtons button {
+    color :rgb(81, 205, 112)
+}
+
+.desktopVersion152 button {
+    color :rgb(98, 98, 224)
+}
+
+.desktopVersionOther button {
+    color :rgb(217, 90, 217)
+}
+
 button:hover {
     transform: scale(1.05)
 }
