@@ -295,3 +295,7 @@ body.dark-mode .footer button.eaglerrinth-mod-list {
 body.dark-mode .footer button.eaglerrinth-mod-list:hover {
     background-color: #a751f2; /* Slightly lighter shade for hover effect in dark mode */
 }
+
+.danger-zone button {
+    color :rgb(0,0,0)
+}
